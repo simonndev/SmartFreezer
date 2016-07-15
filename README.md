@@ -8,7 +8,7 @@ Sometimes, when you add a new library, in introduces a clashing version of **Sys
 
 To fix, add an Assembly Binding Redirect by editing your app.config to look something like this:
 
-```
+```csharp
 <?xml version="1.0"?>
 <configuration>
 <runtime>
