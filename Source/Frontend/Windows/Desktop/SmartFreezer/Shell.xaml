@@ -1,0 +1,35 @@
+﻿<Window x:Class="SmartFreezer.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://www.codeplex.com/prism"
+        xmlns:local="clr-namespace:SmartFreezer"
+        xmlns:infrastructure ="clr-namespace:SmartFreezer.Infrastructure;assembly=SmartFreezer.Infrastructure"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top">
+            <ItemsControl prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.MenuRegion}"></ItemsControl>
+            <ItemsControl prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.ToolBarRegion}"></ItemsControl>
+        </StackPanel>
+
+        <!-- Left-region contains navigation or settings -->
+        <!--<ContentControl x:Name="LeftContent"
+                        prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.LeftWorkspaceRegion}"
+                        DockPanel.Dock="Left">
+
+        </ContentControl>-->
+
+        <!-- Right-region contains tip or additional information -->
+        <!--<ContentControl x:Name="RightContent"
+                        prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.RightWorkspaceRegion}"
+                        DockPanel.Dock="Right">
+        </ContentControl>-->
+
+        <!-- Workspace contains the main content -->
+        <Grid x:Name="WorkspaceGrid">
+            <ContentControl prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.WorkspaceRegion}"></ContentControl>
+        </Grid>
+    </DockPanel>
+</Window>

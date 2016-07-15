@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{865839F9-66CB-4C25-9E5D-4FE2517A8E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{73BD244A-6FD0-421C-B341-9ECD4E490F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Descktop", "Descktop", "{0AB496C2-1640-4EB6-9EC1-01BB589B19AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer", "Frontend\Windows\Desktop\SmartFreezer\SmartFreezer.csproj", "{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.Common", "Frontend\Windows\Desktop\SmartFreezer.Common\SmartFreezer.Common.csproj", "{30A38651-E367-4037-BCE8-FDE2E75CBBAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{83D15E01-B131-496F-859E-E5A08099869C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.SplashScreen", "Frontend\Windows\Desktop\Modules\SmartFreezer.SplashScreen\SmartFreezer.SplashScreen.csproj", "{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.Infrastructure", "Frontend\Windows\Desktop\SmartFreezer.Infrastructure\SmartFreezer.Infrastructure.csproj", "{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.HeatLoadOverview", "Frontend\Windows\Desktop\SmartFreezer.HeatLoadOverview\SmartFreezer.HeatLoadOverview.csproj", "{F8B92DBD-E102-4296-9E76-7198C744B874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.Presentation", "Frontend\Windows\Desktop\SmartFreezer.Presentation\SmartFreezer.Presentation.csproj", "{5F3C7621-D80F-44A8-8EF1-289B4998E3A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A38651-E367-4037-BCE8-FDE2E75CBBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A38651-E367-4037-BCE8-FDE2E75CBBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A38651-E367-4037-BCE8-FDE2E75CBBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A38651-E367-4037-BCE8-FDE2E75CBBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B92DBD-E102-4296-9E76-7198C744B874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B92DBD-E102-4296-9E76-7198C744B874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B92DBD-E102-4296-9E76-7198C744B874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B92DBD-E102-4296-9E76-7198C744B874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3C7621-D80F-44A8-8EF1-289B4998E3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3C7621-D80F-44A8-8EF1-289B4998E3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3C7621-D80F-44A8-8EF1-289B4998E3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3C7621-D80F-44A8-8EF1-289B4998E3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73BD244A-6FD0-421C-B341-9ECD4E490F1D} = {865839F9-66CB-4C25-9E5D-4FE2517A8E0E}
+		{0AB496C2-1640-4EB6-9EC1-01BB589B19AB} = {73BD244A-6FD0-421C-B341-9ECD4E490F1D}
+		{EFF61BE0-E00D-4C5F-8FE6-C91EBED4DC34} = {0AB496C2-1640-4EB6-9EC1-01BB589B19AB}
+		{30A38651-E367-4037-BCE8-FDE2E75CBBAC} = {0AB496C2-1640-4EB6-9EC1-01BB589B19AB}
+		{83D15E01-B131-496F-859E-E5A08099869C} = {0AB496C2-1640-4EB6-9EC1-01BB589B19AB}
+		{C95CCC7D-89D1-4D64-9F0E-2851AE4FC7EA} = {83D15E01-B131-496F-859E-E5A08099869C}
+		{2861C82C-37DE-4510-B65E-7F2A5FB1D6DF} = {0AB496C2-1640-4EB6-9EC1-01BB589B19AB}
+		{F8B92DBD-E102-4296-9E76-7198C744B874} = {83D15E01-B131-496F-859E-E5A08099869C}
+		{5F3C7621-D80F-44A8-8EF1-289B4998E3A6} = {0AB496C2-1640-4EB6-9EC1-01BB589B19AB}
+	EndGlobalSection
+EndGlobal
